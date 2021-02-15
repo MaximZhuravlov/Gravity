@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.section {
+  padding-left: 8.82%;
+}
+
+.header {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 85px;
+}
+
+.header__content {
+  max-width: 474px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 116.66667%;
+  color: #fff;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.55556%;
+  color: #c4c4c4;
+  margin-bottom: 56px;
+}
+
+.header__get-started {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171.42857%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 17px 32px;
+  background-color: #4737ff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header__get-started:hover {
+  -webkit-box-shadow: 0 0 10px #4737ff, 0 0 40px #4737ff, 0 0 80px #4737ff, 0 0 100px #4737ff;
+          box-shadow: 0 0 10px #4737ff, 0 0 40px #4737ff, 0 0 80px #4737ff, 0 0 100px #4737ff;
+}
+
+.services {
+  padding-top: 103px;
+}
+
+.services__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171.42857%;
+  letter-spacing: 4px;
+  opacity: 0.7;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 9.11%;
+  padding-bottom: 99px;
+}
+
+.services__text {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -1px;
+  color: #222;
+  width: 48.2%;
+}
+
+.services__items {
+  width: 36.8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155.55556%;
+  color: #222;
+  opacity: 0.5;
+  margin-bottom: 21px;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-right: 8.82%;
+  padding-bottom: 35px;
+  background-color: #515151;
+}
+/*# sourceMappingURL=styles.css.map */

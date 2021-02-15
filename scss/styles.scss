@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.section {
+  padding-left: 8.82%;
+}
+
+.header {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 85px;
+
+  &__content {
+    max-width: 474px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: percentage($number: 70px / 60px);
+    color: #fff;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: percentage($number: 28px / 18px);
+    color: #c4c4c4;
+    margin-bottom: 56px;
+  }
+
+  &__get-started {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: percentage($number: 24px / 14px);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 17px 32px;
+    background-color: #4737ff;
+    transition: all 0.5s;
+
+    &:hover {
+      box-shadow: 0 0 10px #4737ff, 0 0 40px #4737ff, 0 0 80px #4737ff, 0 0 100px #4737ff;
+    }
+  }
+}
+
+.services {
+  padding-top: 103px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: percentage($number: 24px / 14px);
+    letter-spacing: 4px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    color: #222;
+    margin-bottom: 40px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9.11%;
+    padding-bottom: 99px;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: percentage($number: 50px / 40px);
+    letter-spacing: -1px;
+    color: #222;
+    width: 48.2%;
+  }
+
+  &__items {
+    width: 36.8%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: percentage($number: 28px / 18px);
+    color: #222;
+    opacity: 0.5;
+    margin-bottom: 21px;
+  }
+}
+
+.footer {
+  padding-top: 70px;
+  padding-right: 8.82%;
+  padding-bottom: 35px;
+  background-color: #515151;
+}
